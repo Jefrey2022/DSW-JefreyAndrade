@@ -1,0 +1,32 @@
+body{
+    background-color: bisque;
+}
+header{
+    background-color: #F7F7F7;text-align: center;padding: 18px;
+}
+
+nav{
+    background-color: #FF7800;
+}
+
+aside{
+    background-color: #F7F7F7;
+    grid-column: 1/2;
+}
+
+section{    
+    background-color: #FFBC97;
+    text-align: justify;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+}
+
+article{
+    background-color: #FFE300;
+    grid-column: 2/6;
+}
+
+footer{
+    background-color: #FF7800;padding: 12px;
+}
