@@ -1,21 +1,25 @@
 body{
-    background-color: bisque;
+    background-color: #B8FFF9;
 }
 header{
-    background-color: #F7F7F7;text-align: center;padding: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #4FD3C4;
+    padding: 18px;
 }
 
 nav{
-    background-color: #FF7800;
+    background-color: black;
 }
 
 aside{
-    background-color: #F7F7F7;
+    background-color: #4FD3C4;
     grid-column: 1/2;
 }
 
 section{    
-    background-color: #FFBC97;
+    background-color: #2FA4FF;
     text-align: justify;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -23,12 +27,12 @@ section{
 }
 
 article{
-    background-color: #FFE300;
+    background-color: #2FA4FF;
     grid-column: 2/6;
 }
 
 footer{
-    background-color: #FF7800;padding: 12px;
+    background-color: #00FFC6;padding: 12px;
 }
 
 .menu{
@@ -54,7 +58,7 @@ footer{
 }
 
 .menu li a:hover{
-    background-color: #FFE300;
+    background-color: #00FFC6;
 }
 
 .menu li ul{
